@@ -1,0 +1,39 @@
+.hidden{
+    display: none;
+}
+.line{
+    text-decoration: line-through;
+}
+ul{
+    list-style:none;
+    padding: 0;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    margin: 3px 0px;
+}
+span{
+    margin-left: 5px;
+    font-size: 17px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#todo-form input{
+    width: 300px;
+    height: 20px;
+}
+
+#clock{
+    font-size: 80px;
+    margin: 0;
+}
+#greeting{
+    font-size: 45px;
+    margin: 10px 0px;
+}
