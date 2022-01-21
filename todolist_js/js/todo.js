@@ -21,7 +21,7 @@ function deleteTodo(event) {
     saveTodos();
 }
 
-//투두 Update 못함 ㅠㅠ
+//투두 Update 못함 ㅠ.ㅠ
 function updateTodo(event){
     const li = event.target.parentElement;
 }

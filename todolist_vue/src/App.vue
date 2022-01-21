@@ -1,15 +1,22 @@
 <template>
   <div id="app">
     <TodoLIst></TodoLIst>
+    <quill />
+    <tiptap />
   </div>
 </template>
 
 <script>
+import Tiptap from './components/Tiptap.vue';
+import Quill from './components/Quill.vue';
 import TodoLIst from "@/components/TodoLIst";
+
 export default {
   name: 'App',
   components: {
-    TodoLIst
+    TodoLIst,
+    Tiptap,
+    Quill
   }
 }
 </script>
